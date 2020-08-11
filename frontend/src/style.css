@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap');
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    
+}
+
+
+.logo{
+    padding: 10px;
+    width: 180px;
+}
+
+section .encurtador{
+    width: auto;
+    height: 100vh;
+    background: url('./assets/background-home.jpg');
+    text-align: center;
+    
+}
+
+
+.row{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteudo{
+    width: 40%;
+    height: 40%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-text{
+    align-items: center;
+    color:  #FFF;
+    font-size: 8vh;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+
+.highlight{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.08em;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5vh;
+}
+
+.input-link{
+    display: flex;
+    background: transparent;
+    border: transparent;
+    border-radius: 2px;
+    border-bottom: 2px solid #FF6E13;
+    color: #FFF;
+    justify-content: center;
+    align-self: center;
+    font-size: 2.5vh;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.input-link::placeholder{
+    color: #FF6E13;
+}
+
+.btn{
+    background: #FF6E13;
+    border: 0;
+    color: #FFF;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FFF;
+    color: #FF6E13;
+    text-decoration: none;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.url_encurtada{
+    width: 80%;
+    display: flex;
+}
+
+.url_encurtada .url{
+    display: flex;
+}
+
+.icon{
+    color:  #FF6E13;
+    margin-top: 15px;
+    height: 32px;
+}
+
+.input-link,
+.btn{
+    outline: none;
+    box-shadow: none;
+}
+
+.footer{ 
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.text-logo{
+   display: flex;
+   width: 50%;
+   height: 10vh;    
+   color: #AA1423;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+.redes-sociais{
+   display: flex;
+   width: 50%;
+   height: 10vh;    
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+}
+
+.icon-sociais{
+    color: gray;
+    margin: 10px;
+    font-size: 25px;
+}
+

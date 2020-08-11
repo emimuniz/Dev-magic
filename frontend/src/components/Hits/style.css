@@ -1,0 +1,45 @@
+.click-counter{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+}
+
+.triangulo{
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #fff;
+    margin: 0 auto;
+}
+
+.conteudo-hits{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.title-hits{    
+    color: #AA1423;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.click-counter .quantity {
+    background: #fff;
+    border-radius: 5px;
+    color: #AA1423;
+    font-family: 'Roboto Slab', serif;
+    padding: 5px;
+}
+
+.click-counter .description{
+    color: #777;
+    text-align: center;
+}
+

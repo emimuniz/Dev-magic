@@ -1,0 +1,41 @@
+.row-top{
+    width: 100%;
+    height: 50vh;
+}
+
+.conteudo-top{
+    margin: 2em;
+}
+
+.titulo-top{
+    color: #AA1423;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.table-url{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+}
+
+.text-url, .text-cliques {
+    border-bottom: 1px solid gray;
+}
+ 
+.text-url {
+    color: #AA1423;
+    padding-bottom: 10px;
+    font-weight: bold; 
+    padding-right: 100px;
+}
+
+.text-cliques{
+    color: gray;
+    font-weight: bold; 
+}
+
