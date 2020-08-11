@@ -26,7 +26,7 @@
 
 
 
-![image](https://github.com/emimuniz/AllProjects/blob/master/dev-magic/aplicacao.gif)
+![image](https://github.com/emimuniz/Dev-magic/blob/master/aplicacao.gif)
 
 
 
